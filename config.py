@@ -5,8 +5,8 @@ from database import DB
 
 
 
-# admins = [5686116279]
-admins = [270392340, 834559485]
+admins = [585896156]
+# admins = [270392340, 834559485]
 
 pat = '/root/bot/images'
 
@@ -27,8 +27,7 @@ cities = {
 }
 
 
-bot = Bot(token='6135886049:AAHYcN_77ZKxc0iDURSPzdkledWFsgD8DI4', parse_mode='html')
-# bot = Bot(token='5669481090:AAHXyO-JyxVoDZ7RB6shxmrIlzGCveS60mA', parse_mode='html')
+bot = Bot(token='6047890738:AAGH-wyKIAhHAEp6ne6YpfAj3l0vnyM5XIc', parse_mode='html')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
